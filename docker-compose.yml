@@ -1,0 +1,13 @@
+version: '3'
+
+services:
+  jenkins:
+    image: jenkins:2.60.3 
+    container_name: jenkins
+    restart: always
+    user: "root:root"
+    ports:
+      - <<YOUR HTTP PORT>>:8080
+      - <<YOUR JNLP TCP PORT>>:50000
+    volumes:
+      - <<YOUR DIRECTORY PATH>>:/var/jenkins_home
