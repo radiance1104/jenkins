@@ -9,7 +9,7 @@ Therefore, don't use insecure network like global network.
 
 ## Install
 
-Edit `<<>>` in docker-compose.yml, and run below command.
+Replace `<<>>` in docker-compose.yml, and run below command.
 
   ```
   $ docker-compose up -d
